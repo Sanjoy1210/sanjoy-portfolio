@@ -4,9 +4,12 @@ html, body {
     height: 100%;
 }
 
-.tomato-color {
-    font-size: 40px;
+.pink-color {
     color: #FF5599;
+}
+
+.fonts-size {
+    font-size: 40px;
 }
 
 .flexible-container {
@@ -88,4 +91,43 @@ html, body {
 .client img {
     width: 50%;
     border-radius: 50%;
+}
+
+.client-name {
+    line-height: 6px;
+}
+
+.inquiry-area {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.inquiry-container {
+    width: 50%;
+    background-image: url(images/inquiry-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 160px;
+    margin: 12px auto;
+}
+
+.inquiry-container h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 35px;
+}
+
+.chat-button {
+    justify-content: center;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.contact {
+    line-height: 6px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
 }
