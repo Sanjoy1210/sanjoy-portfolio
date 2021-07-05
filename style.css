@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tomato-color {
+    font-size: 40px;
+    color: #FF5599;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.half-width {
+    width: 40%;
+    margin: 5%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #FF5599;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 40px;
+}
