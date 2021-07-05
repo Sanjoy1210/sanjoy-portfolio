@@ -1,5 +1,7 @@
-body {
+html, body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100%;
 }
 
 .tomato-color {
@@ -33,11 +35,15 @@ body {
 
 .porject-container {
     margin-bottom: 150px;
+    background-color: #f3f3f3;
+    height: 100%;
 }
 
 .porject-container h1 {
     text-align: center;
     font-size: 40px;
+    margin-bottom: 80px;
+    padding-top: 80px;
 }
 
 .project-area {
@@ -47,10 +53,39 @@ body {
 }
 
 .one-third {
-    width: 30%;
+    width: 33%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
 }
 
 .one-third img {
     width: 100%;
 }
 
+.client-area {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.client-area h1 {
+    font-size: 40px;
+}
+
+.our-clients {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.client {
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.client img {
+    width: 50%;
+    border-radius: 50%;
+}
